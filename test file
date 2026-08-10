@@ -10,7 +10,7 @@ commit = {
     'files': [
         {
             'filename': 'src/app.py',
-            'patch': '+password = "supersecret"\n+api_key = "AIzaTest123"\n'
+            'patch': '+password = "supersecret"\n+api_key = "AIzaTestw123"\n'
         }
     ],
 }
