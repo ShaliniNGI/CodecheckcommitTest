@@ -1,1 +1,4 @@
 string ABC ="test file",
+export enum Info {
+    sharedLabelAccessInfo = "You do not have access to this label",
+  }
