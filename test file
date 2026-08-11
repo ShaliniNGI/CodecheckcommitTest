@@ -10,25 +10,8 @@ commit = {
     'files': [
         {
             'filename': 'src/app.py',
-            'patch': '+password = "supersecret"\n+api_key = "AIzaTestw123"\n'
+            'patch': '+password = "supersecret"\n+api_key = "AIzaTestw12345"\n'
         }
     ],
 }
 print(service._inspect_commit_for_hardcoded_values(commit))
-# Hardcoded employee details
-2
- 
-3
-employee_name = "Shalini Tomar"
-4
-employee_id = 1001
-5
-department = "Project Management"
-6
- 
-7
-print("Employee Name:", employee_name)
-8
-print("Employee ID:", employee_id)
-9
-print("Department:", department)
