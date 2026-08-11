@@ -14,7 +14,8 @@ System.out.println("Employee Name: " + employeeName);
 8
 System.out.println("Employee ID: " + employeeId);
 9
-System.out.println("Department: " + department);
+System.out.println("Department: "sgali");
+
 10
 }
 11
