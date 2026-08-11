@@ -1,1 +1,17 @@
-hitesting
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path('.').resolve() / 'src'))
+from services.commit_service import CommitService
+
+service = CommitService()
+commit = {
+    'id': 'example-1',
+    'author': 'Jane Doe <jane@example.com>',
+    'files': [
+        {
+            'filename': 'src/app.py',
+            'patch': '+password = "supersecret"\n+api_key = "AIzaTest123"\n'
+        }
+    ],
+}
+print(service._inspect_commit_for_hardcoded_values(commit))
