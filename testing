@@ -1,1 +1,21 @@
-testing
+public class Employee {
+2
+public static void main(String[] args) {
+3
+String employeeName = "Shalini Tomar";
+4
+int employeeId = 1001;
+5
+String department = "Project Management";
+6
+ 
+7
+System.out.println("Employee Name: " + employeeName);
+8
+System.out.println("Employee ID: " + employeeId);
+9
+System.out.println("Department: " + department);
+10
+}
+11
+}
